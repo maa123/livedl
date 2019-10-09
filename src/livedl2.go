@@ -89,8 +89,8 @@ func main() {
 
 	now := time.Now()
 	if limitTime.Unix() < now.Unix() {
-		fmt.Println("kigengire")
-		return
+		/*fmt.Println("kigengire")
+		return*/
 	}
 
 	ctx := context.Background()
