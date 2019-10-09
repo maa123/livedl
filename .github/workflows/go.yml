@@ -29,3 +29,8 @@ jobs:
 
     - name: ls
       run: dir
+    - name: Save
+      uses: actions/upload-artifact@master
+      with:
+        name: main.exe
+        path: livedl2.exe
