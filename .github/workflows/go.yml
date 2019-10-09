@@ -22,6 +22,10 @@ jobs:
         go get golang.org/x/crypto/sha3
         go get github.com/mattn/go-sqlite3
         go get github.com/gin-gonic/gin
+        go get github.com/himananiito/m3u8
 
     - name: Build
       run: go build -v src/livedl2.go
+
+    - name: ls
+      run: dir
